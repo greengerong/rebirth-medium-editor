@@ -1,1 +1,4 @@
-declare const MediumEditor: any;
+declare module "medium-editor" {
+  const MediumEditor: any;
+  export = MediumEditor;
+}
