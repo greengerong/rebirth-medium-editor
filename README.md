@@ -6,7 +6,7 @@
 
 Welcome to `@Rebirth/MediumEditor`. This repo is Angular ui library for MediumEditor. And it is being built from scratch in Typescript.
 
-You can check [Demo Showcase](/rebirth-medium-editor) & [API document](/rebirth-medium-editor/compodocs/overview.html).
+You can check [Demo Showcase](https://greengerong.github.io/rebirth-medium-editor) & [API document](https://greengerong.github.io/rebirth-medium-editor/compodocs/overview.html).
 
 
 ## Dependencies
