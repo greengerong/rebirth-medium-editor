@@ -1,0 +1,1 @@
+declare const MediumEditor: any;

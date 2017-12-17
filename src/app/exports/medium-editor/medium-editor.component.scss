@@ -1,0 +1,10 @@
+:host {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  &:hover, &:focus {
+    border: 1px solid #4582ec;
+    outline: none;
+  }
+}
