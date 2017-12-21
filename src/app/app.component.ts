@@ -97,7 +97,11 @@ export class AppComponent implements OnInit {
               url: 'https://greengerong.github.io/rebirth-chart/'
             },
             {
-              text: 'rebirth-medium-editor(ECharts)',
+              text: 'Rebirth-echarts(ECharts)',
+              url: 'https://greengerong.github.io/rebirth-echarts/'
+            },
+            {
+              text: 'rebirth-medium-editor(MediumEditor)',
               url: 'https://greengerong.github.io/rebirth-medium-editor/'
             },
             {
