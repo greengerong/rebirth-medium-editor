@@ -60,6 +60,10 @@ export class AppComponent implements OnInit {
             {
               text: 'Default editor',
               url: '#default-editor'
+            },
+            {
+              text: 'Static relative toolbar',
+              url: '#static-relative-toolbar'
             }
           ],
           icon: 'glyphicon glyphicon-fire'

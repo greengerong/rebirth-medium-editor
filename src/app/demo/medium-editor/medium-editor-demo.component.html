@@ -1,7 +1,14 @@
 <div class="medium-editor-demo">
 
   <section>
+    <h4><a name="default-editor">Basic</a></h4>
     <re-medium-editor [(ngModel)]="html"></re-medium-editor>
+  </section>
+
+  <section>
+    <h4><a name="static-relative-toolbar">Static relative toolbar</a></h4>
+    <div #toolbar class="toolbar"></div>
+    <re-medium-editor [(ngModel)]="html" [options]="staticOptions"></re-medium-editor>
   </section>
 
 </div>

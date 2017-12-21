@@ -1,11 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 're-medium-editor-demo',
-  templateUrl: './medium-editor-demo.component.html'
-})
-export class MediumEditorDemoComponent {
+  templateUrl: './medium-editor-demo.component.html',
+  styles: [`
+    .toolbar {
+      position: relative;
+      height: 52px;
+      margin-bottom: 4px;
+    }
 
+    ::ng-deep .toolbar .medium-editor-toolbar {
+      visibility: visible;
+      width: 100%;
+      z-index: 100;
+    }
+  `]
+})
+export class MediumEditorDemoComponent implements OnInit {
+
+
+  @ViewChild('toolbar') toolbar: ElementRef;
   html: string = `<div><h1>Getting started</h1>
         <blockquote>
         <p>Angular UI plugin with MediumEditor</p>
@@ -22,5 +37,20 @@ export class MediumEditorDemoComponent {
     </div>
 `;
 
+  staticOptions: any;
+
+  ngOnInit(): void {
+    this.staticOptions = {
+      placeholder: {
+        text: 'Type your text',
+        hideOnClick: true
+      },
+      toolbar: {
+        buttons: ['bold', 'italic', 'underline', 'anchor'],
+        relativeContainer: this.toolbar.nativeElement,
+        static: true
+      }
+    }
+  }
 }
 
