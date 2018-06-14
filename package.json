@@ -82,7 +82,7 @@
     "markdown-loader": "^2.0.0",
     "npm-run-all": "^4.0.1",
     "protractor": "~5.1.0",
-    "rebirth-ng": "6.0.0",
+    "rebirth-ng": "6.0.3",
     "run-sequence": "^1.2.2",
     "sw-precache": "^4.3.0",
     "ts-helpers": "^1.1.1",
@@ -94,7 +94,7 @@
   "dependencies": {
     "medium-editor": "^5.23.2"
   },
-  "description": "> Angular2 UI plugin with bootstrap;",
+  "description": "> Angular UI plugin with bootstrap;",
   "bugs": {
     "url": "https://github.com/greengerong/rebirth-medium-editor/issues"
   },
